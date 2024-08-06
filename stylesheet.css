@@ -1,0 +1,110 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  #main-header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 5px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #main-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  #main-header p {
+    font-size: 1.2em;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .section.half-width {
+    width: calc(48% - 40px); /* Adjust for 48% width and space between */
+  }
+  
+  .section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section h2 {
+    font-size: 1.8em;
+    color: #ff6f61;
+  }
+  
+  .section p {
+    margin-bottom: 15px;
+  }
+  
+  .section img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #main-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 5px solid #ff6f61;
+  }
+  
+  #main-footer a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #main-footer a:hover {
+    color: blue;
+  }
+  
+  .external-link {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .external-link:hover {
+    color: blue;
+  }
+  
+  a {
+    transition: color 0.3s;
+  }
+  
